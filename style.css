@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+} 
+header{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.titre{
+    font-size: 1.5rem;
+    margin-left: 13rem;
+    margin-top: 1.5rem;
+   
+    
+}
+.titre a{ 
+    text-decoration: none;
+    color: white;
+}
+   
+nav ul li{
+    display: inline-block;
+    font-size: 1.1rem;
+}
+nav{
+    margin-top: 2.3rem;
+    margin-right: 10rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul {
+    display: flex;
+    gap: 3rem;
+}
+.container{
+    width: 100%;
+    height: 39rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+.left{
+    width: 50%;
+    height: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    margin-top: 1rem;
+}
+.right h2{
+ font-size: 5rem;
+ text-align: center;
+ margin-top: 3rem;
+}
+.left h1{
+    font-size: 10rem;
+        
+}
+.right .entre{
+    width: 100%;
+    height: 10rem;
+    margin-top: 4rem;
+}
+.sortie img{
+    width: 14.5rem;
+    height: 7.5rem;
+    margin-left: 10rem;
+    border: 0.2rem solid #fff;
+    margin-bottom: 1rem;
+    
+}
+.container H2{
+    color:black ;
+}
+.tof1{
+    width: 30rem;
+    height: 40rem;
+   margin-top: 0rem;
+    margin-left: 3rem;
+    padding-top: 8rem;
+    margin-bottom: 5rem;
+}
+.tof{
+    margin-top: -17rem;
+    width: 28rem;
+    height: 12rem;
+    margin-right: 5rem;
+    margin-left: 6rem;
+
+    margin-bottom: 5rem;
+    
+}
+.container .right h2{
+    font-size: 4rem;
+    margin-top: 20rem;
+}
+footer{
+    background-color: blue;
+    
+}
+.bordure{
+    background-color: rgb(207, 201, 201);
+    width: 6rem;
+    height: 0.4rem;
+    margin-top: 5.5rem;
+    margin-left: 6rem;
+}
+.bloc{
+
+    background-image: url('image/home1.jpg');
+    background-size: cover;
+    object-fit: contain;
+}
+.propre{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.propre span{
+    color: rgb(71, 42, 232);
+    
+}
+.propre h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -2rem;
+}
+.propre p{
+text-align: center;
+color: black;
+font-size: 1.2rem;
+margin-top: 1rem;
+margin-bottom: 2rem;
+}
+h4 {
+    text-align: center;
+   
+    margin-bottom: 0.5rem;
+}
+h3 {
+    text-align: center;
+}
+.quatre{
+ padding: 6% 9rem;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+}
+.phote{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
+    gap:2rem;
+    padding: 2.5rem 0;
+    
+}
+.boxi img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.boxi:hover img{
+   transform:  scale(1.2) ;   
+}
+.separe{
+    display: block;
+   justify-content: center;
+    background-color: rgb(66, 180, 237);
+    width: 80%;
+    height:100%;
+    
+}
+
+.separe .phote{
+ color: white;
+ margin-top: 5rem;
+ margin-left: 4rem;
+ font-size: 1.5rem;
+}
+.separe p{
+   margin-top: 4rem;
+   color: white;
+   font-size: 1rem;
+   margin-left: 1.5rem; 
+}
+.separe h3{
+    padding-top: 5rem;
+    color: white;
+}
+.containe{
+    width: 100%;
+    height: 39rem;
+    display: flex;
+    flex-direction: row; 
+}
+ button{
+    padding: 10px 0px;
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 2rem;
+    color: white;
+    width: 12%;
+    margin-left: 60rem;
+}  
+.btn{
+    background: #C1B086;
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    padding-top: 1rem;
+}
+ .form .liw{
+     color: rgb(68, 75, 216);
+}
+.formule .form{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+.form{
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    width: 30%;
+    height: 480px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    margin-left: 28rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.formule .form h2{
+    width: 220px;
+    margin-left: 5rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    
+    
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+    font-family: sans-serif;
+    margin-left: 5rem;
+ }
+ .form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease; 
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold; 
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center; 
+    color: #fff;
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+}
+.form .link a{
+    text-decoration: none;
+    color: blue; 
+}
+.liw{
+  
+   text-align: center;
+}
+
+.form .liw{
+    color: #fff;
+ }
+
+ .formule .forma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.forma{
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    width: 30%;
+    height: 480px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    margin-left: 28rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.forma h2{
+    width: 220px;
+    margin-left: 5rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    
+}
+.forma input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 1.3rem;
+    font-family: sans-serif;
+    margin-left: 5rem;
+    
+ }
+ .forma input:focus{
+    outline: none;
+}
+::placeholder{
+    color: rgba(92, 91, 91, 0.738);
+    font-family: arial;
+}
+.btnn{
+    margin-left: 5rem;
+    width: 240px;
+    height: 40px;
+    background: blue;
+    border: none;
+    margin-top: 28px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease; 
+}
+.btnn:hover{
+    background: #fff;
+    color: blue;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold; 
+}
+.forma .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center; 
+    color: #fff;
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+}
+.forma .link a{
+    text-decoration: none;
+    color: blue; 
+}
+.liw{
+  
+   text-align: center;
+}
+
+.forma .liw{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+ }
+ .forma .liw a {
+    color: blue;
+    font-size: 1rem;
+ }
+ .formule .mulle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+ }
+ .mulle input{
+    font-size: 1rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+    width: 20%;
+    align-items: center;
+    background-color: rgb(55, 158, 243);
+ }
+ .mulle label{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+   margin-left: 1.5rem;
+   color: white;
+ }
+ .cadrer h3{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+ }
+ .cadrer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(55, 158, 243);
+    width: 100%;
+    height: 100%;
+ }
+ .mulle input:focus{
+    outline: none;
+}
+.butto{
+    margin-bottom: 2.2rem;
+    margin-top: 2rem;
+    background: rgb(16, 16, 15); ;
+    cursor: pointer;
+    margin-right: 2rem;
+    width: 7%;
+    font-size: 1rem;
+}
+.tab{
+    color: #000;
+    margin-right: 2rem;
+}
+.icon{
+   color: rgb(68, 68, 247);
+   margin-left: 10rem;
+   margin-top: 1rem;
+   cursor: pointer;
+}
+
+
+
+
+
